@@ -89,7 +89,7 @@ nav a{
     color: gray;
     text-decoration: none;
     padding: 0px 40px 10px 0px;
-    font-size: 22pt;
+    font-size: 23pt;
     position: relative;
 }
 nav a::after{
