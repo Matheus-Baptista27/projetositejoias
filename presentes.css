@@ -38,6 +38,21 @@ nav a:hover::after{
     width: 100%;
 
 }
+button {
+    cursor: pointer;
+    padding: 1px;
+    font-size: 15px;
+}
+.qty {
+    display: flex;
+    padding: 5px 0;
+    background:darkgrey;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 60px;
+    border-radius: 20px;
+}
 main {
     background: gainsboro;
     padding: 0 30px;
@@ -56,8 +71,15 @@ main .page-title{
 
 }
 .content aside{
-    background: teal;
-    min-width: 180px;
+   background: #dddddda8;
+   margin-bottom: 15px;
+   border: 3px solid cornsilk;
+   text-align: center;  
+   padding: 10px 30px;  
+}
+.info{
+    padding: 1px;
+    margin-bottom: 10px;
 }
 table {
     width: 100%;
@@ -73,7 +95,44 @@ th {
     display: flex;
     align-items: center;
 }
+img {
+    border-radius: 6px;
+}
+.info {
+    margin-left: 20px;
+    text-align-last:center;
+    flex-direction: column;
 
+
+}
+.name {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.categoria{
+    color: dimgray;
+}
+
+.btn1{
+    background: gray;
+    font-style: italic;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.btn2{
+    background: green;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
 
 footer {
     background-color: darksalmon;
