@@ -108,5 +108,6 @@ body{
     background-color: grey;
     color:lightcoral;
 }
+@media (max-width:450px)
 
 
