@@ -141,3 +141,16 @@ footer {
     padding: 70px;
     border: 3px solid pink;
 }
+@media screen and (max-width: 500px) {
+    nav a {
+        font size: 18pt;
+    }
+    main .pagetitle{
+        font-size: 30px;
+        display: block;
+    }
+    main .info {
+        display: block;
+        flex-direction: column;
+    }
+}
