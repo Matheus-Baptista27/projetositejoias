@@ -12,7 +12,7 @@ header {
     border-bottom: 3px solid pink;
 }
 .container{
-    background-color: #EEE;
+    background-color:gainsboro;
     min-height: 50vh;
     padding: 60px;
 }
@@ -89,7 +89,7 @@ nav a{
     color: gray;
     text-decoration: none;
     padding: 0px 40px 10px 0px;
-    font-size: 25pt;
+    font-size: 22pt;
     position: relative;
 }
 nav a::after{
