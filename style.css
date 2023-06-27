@@ -8,9 +8,20 @@ header {
     background-color:darksalmon;
     font-style: italic;
     text-align: center;
-    padding: 15px;
-    border-bottom: 3px solid pink;
+    padding: 10px;
+    border-bottom: 2px solid pink;
+    
+    
 }
+#imagemlogo{
+    background-image: url(IMG/logotipo.jpeg);
+    width: 15%;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    
+ }
+
 .container{
     background-color:gainsboro;
     min-height: 50vh;
