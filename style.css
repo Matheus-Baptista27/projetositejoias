@@ -97,7 +97,7 @@ h3 {
 }
 nav{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 50px;   
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 nav a{
@@ -133,4 +133,12 @@ footer {
     .card {
         width: 90%;
     }
+    #imagemlogo{
+        background-image: url(IMG/logotipo.jpeg);
+        width: 100px;
+        height: 100px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 50%;
+}
 }
